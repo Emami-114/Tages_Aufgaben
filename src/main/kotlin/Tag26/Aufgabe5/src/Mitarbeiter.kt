@@ -3,7 +3,7 @@ class Mitarbeiter(  var id:Int = 0,
                     var position:String = "",
                     var gehalt:Double = 0.0,
                     var artDerBeschäftigung:String = "",
-                    var mutterschaftsUrlaub:Int = 0){
+                    var mutterschaftsUrlaub:Boolean =false){
 
 
 
@@ -14,6 +14,6 @@ class Mitarbeiter(  var id:Int = 0,
         println("Position ${this.position} und Gehalt: ${this.gehalt}")
     }
     fun istVerfuegbar(){
-        println("${this.name} hat mutterschaft urlaub: ${this.mutterschaftsUrlaub} Tage")
+        println("${this.name} hat mutterschaft urlaub.")
     }
 }
