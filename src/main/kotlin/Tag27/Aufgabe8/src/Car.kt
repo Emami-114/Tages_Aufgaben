@@ -1,4 +1,4 @@
-class Car {
+class Car3 {
     var ps:Int
     var color:String
     var seats:Int = 0
