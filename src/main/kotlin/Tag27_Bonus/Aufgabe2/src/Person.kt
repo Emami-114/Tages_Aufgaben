@@ -1,5 +1,5 @@
 //Hier kannst du die Klasse Tag27_Bonus.Person hinschreiben
-class Person {
+class Person33 {
     var name:String
     var alter:Int=0
     var große:Int=0
