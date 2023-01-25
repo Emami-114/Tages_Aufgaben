@@ -1,4 +1,4 @@
-class Pinguin(var gewicht:Double,var canFly:Boolean=false):Vogel(gewicht, canFly) {
+class Pinguin(var gewicht:Double,var canFly:Boolean=false):Vogel33(gewicht, canFly) {
 
 
     fun waddle(){

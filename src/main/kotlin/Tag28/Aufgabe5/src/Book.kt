@@ -1,4 +1,4 @@
-class Book {
+class Book33 {
     var page1 = Page("Das ist der Anfang des Buches.")
     var page2 = Page("Jetzt sind wir auf Seite 2.")
     var page3 = Page("Hier haben wir gerade Seite 3. erreicht.")

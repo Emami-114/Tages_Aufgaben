@@ -1,5 +1,5 @@
 fun main() {
-    val vogel = Vogel(12.0,)
+    val vogel = Vogel33(12.0,)
     val pinguin = Pinguin(30.0)
     val adler = Adler(50.0)
 
