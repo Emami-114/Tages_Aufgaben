@@ -12,8 +12,8 @@ class Airplane(var amountTurbines: Int, var flyingSpeed: Double) {
             isAirborne = true
         }
     }
-    fun  land(){
-        if (flyingSpeed > 0.0){
+    fun land(){
+        if (isAirborne){
             isAirborne = false
         }
     }

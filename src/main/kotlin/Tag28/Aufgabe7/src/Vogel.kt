@@ -1,6 +1,6 @@
 open class Vogel33 (gewicht:Double,canFly:Boolean=true){
 
-    fun makeNoise(){
+    open fun makeNoise(){
         println("Animal noises.")
     }
 }
